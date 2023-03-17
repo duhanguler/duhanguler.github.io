@@ -1,35 +1,51 @@
 /*CENG311 Activity 2 css file*/
 
 /*styling for the table goes here*/
-body 
-{
-	width: 750px;
-	margin: 0 auto;
+body {
+  width: 750px;
+  margin: 0 auto;
 }
 
-table 
-{
-	border-collapse: collapse;
-	border: 1px solid black;
-	margin: 20px;
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 20px;
 }
 
-thead 
-{
-	background-color: yellow;
+thead {
+  background-color: yellow;
 }
 
-th, td 
-{
-	border: 1px solid black;
-	padding: .2em 1em .2em .5em;
-	text-align: left;
-	vertical-align: middle;
+th,
+td {
+  border: 1px solid black;
+  padding: 0.2em 1em 0.2em 0.5em;
+  text-align: left;
+  vertical-align: middle;
 }
 
+.table-caption {
+  background-color: white;
+  vertical-align: top;
+  font-weight: bold;
+}
 
+.t-center {
+  text-align: center;
+}
 
-tbody tr:nth-child(even)
-{
-	background-color: yellow;
+.t-margin {
+  margin: 0 auto;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.t-bold {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: yellow;
 }
