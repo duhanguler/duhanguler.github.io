@@ -29,7 +29,7 @@ th, td
 
 
 
-tbody tr:nth-child(even) td 
+tbody tr:nth-child(even)
 {
 	background-color: yellow;
 }
