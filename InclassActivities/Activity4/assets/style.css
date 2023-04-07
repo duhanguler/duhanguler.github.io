@@ -1,0 +1,37 @@
+body{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+form > input{
+    box-sizing: border-box;
+	width : 150px;
+}
+
+form > select {
+    width: 70px;
+}
+
+#sex{
+    width: 25px;
+}
+
+#language{
+    
+    width: 25px;
+}
+
+#about{
+    margin-bottom: -15px;
+}
+
+#submit-button{
+    position: relative;
+	width: 80px;
+    margin-left: 110px;
+    margin-top: -40px;
+}
