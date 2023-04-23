@@ -9,8 +9,8 @@ var counter = 0;
 // Button randomize function.
 function randomizeButtonPosition() {
   // Generator for my browser's settings.
-  var marginTop = Math.floor(Math.random() * 1001) - 500;
-  var marginLeft = Math.floor(Math.random() * 1001) - 500;
+  var marginTop = Math.random()*300;
+  var marginLeft = Math.random()*300;
 
   // Set new position.
   button.style.marginTop = marginTop + "px";
