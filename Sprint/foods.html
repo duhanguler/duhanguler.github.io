@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Blog</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/foods.css">
+  <script src="assets/js/foods.js"></script>
+  <script src="assets/js/style.js"></script>
+
+</head>
+<body>
+    <header>
+        <!-- Add header content here -->
+    </header>
+  <nav>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="breeds.html">Cat Breeds</a>
+      <a href="foods.html">Best Cat Foods</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+
+  <label for="cat-age">Enter your cat's age:</label>
+<input type="number" id="cat-age" min="0">
+<button id="suggest-button">Suggest Cat Food</button>
+<div id="suggestion">
+  <div id="suggest-section"></div>
+</div>
+<footer>
+    <p>&copy; 2023 Cat Website. All rights reserved.</p>
+  </footer>
+</body>
+  
+</body>
+</html>

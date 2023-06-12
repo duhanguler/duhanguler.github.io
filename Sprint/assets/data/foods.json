@@ -1,0 +1,27 @@
+{
+    "kitten": {
+      "category": "Kitten Food",
+      "foods": [
+        "Brand A Kitten Food",
+        "Brand B Kitten Food",
+        "Brand C Kitten Food"
+      ]
+    },
+    "sterilized": {
+      "category": "Sterilized Food",
+      "foods": [
+        "Brand X Sterilized Food",
+        "Brand Y Sterilized Food",
+        "Brand Z Sterilized Food"
+      ]
+    },
+    "adult": {
+      "category": "Adult Food",
+      "foods": [
+        "Brand M Adult Food",
+        "Brand N Adult Food",
+        "Brand P Adult Food"
+      ]
+    }
+  }
+  

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Siamese",
+    "origin": "Thailand",
+    "description": "The Siamese cat is known for its striking blue almond-shaped eyes and short coat with color points on the ears, face, paws, and tail.",
+    "image": "siamese.jpg"
+  },
+  {
+    "name": "Persian",
+    "origin": "Iran",
+    "description": "Persian cats are characterized by their long, luxurious coats, round faces, and sweet temperaments. They require regular grooming.",
+    "image": "persian.jpg"
+  },
+  {
+    "name": "Maine Coon",
+    "origin": "United States",
+    "description": "The Maine Coon is one of the largest domesticated cat breeds. They have a muscular build, tufted ears, and a shaggy coat.",
+    "image": "maine-coon.jpg"
+  }
+]

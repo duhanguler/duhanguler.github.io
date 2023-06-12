@@ -1,0 +1,50 @@
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#suggestion {
+  margin-top: 20px;
+}
+
+#suggestion div {
+  margin-bottom: 20px;
+}
+
+#suggestion p {
+  margin: 0;
+}
+
+#suggest-section {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+#suggest-section p {
+  margin-bottom: 5px;
+}
+
+.category {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .cat-food-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
