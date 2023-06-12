@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $.ajax({
+    method: 'GET',
     url: 'https://sprint.dg.web.tr/blog.json',
     dataType: 'json',
     success: function(data) {
