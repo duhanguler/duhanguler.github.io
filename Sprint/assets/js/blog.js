@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $.ajax({
-    url: 'assets/data/blog.json',
+    url: 'https://sprint.dg.web.tr/blog.json',
     dataType: 'json',
     success: function(data) {
       var accordion = $('#accordion');
